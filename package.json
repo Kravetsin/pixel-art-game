@@ -1,0 +1,41 @@
+{
+  "name": "pixel-art-game",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kravetsin/pixel-art-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kravetsin/pixel-art-game/issues"
+  },
+  "homepage": "https://github.com/Kravetsin/pixel-art-game#readme",
+  "dependencies": {
+    "idb-keyval": "^6.2.2",
+    "phaser": "^3.90.0",
+    "simplex-noise": "^4.0.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
+    "@typescript-eslint/parser": "^8.57.2",
+    "eslint": "^10.1.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2"
+  }
+}
